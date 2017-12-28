@@ -14,7 +14,9 @@ func main() {
 	hb.Inserts("e_test","f1","hello")
 	hb.Selects("e_test")
 
+
+	var db Oracle
+	db.Select("select 3.14,'hello' from dual")
+
 }
-
-
 
