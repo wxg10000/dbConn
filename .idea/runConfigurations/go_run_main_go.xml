@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File">
+    <module name="dbConn" />
+    <working_directory value="$PROJECT_DIR$/" />
+    <filePath value="$PROJECT_DIR$/main.go" />
+    <method />
+  </configuration>
+</component>
