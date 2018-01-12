@@ -1,7 +1,7 @@
 package db
 
 import (
-	_"go-oci8-master"
+	_ "dbConn/go-oci8-master"
 	"database/sql"
 	"log"
 )

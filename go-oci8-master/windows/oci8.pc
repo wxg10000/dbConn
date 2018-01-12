@@ -1,0 +1,15 @@
+# Package Information for pkg-config
+
+prefix=C:\instantclient_12_2
+exec_prefix=C:\instantclient_12_2
+libdir=${exec_prefix}
+includedir=${prefix}/sdk/include/
+
+Name: OCI
+Description: Oracle database engine
+Version: 11.2
+Libs: -L${libdir} -loci
+Libs.private: 
+Cflags: -I${includedir}
+
+
